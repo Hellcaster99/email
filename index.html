@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="widtth=device-width, initial-scale=1">
+    <title>Sign Up</title>
+    <script src="https://kit.fontawesome.com/e6402c8501.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Rock+Salt&family=Stalinist+One&display=swap');
+  </style>
+
+  <body>
+    <div class="navbox">
+      <div class="logo nav-link">
+        <h1>CTP</h1>
+      </div>
+      <div class="nav nav-link">
+        <a href="#intro" class="nav-item">About</a>
+        <a href="#form" class="nav-item">SignUp</a>
+      </div>
+      <div class="togglebar nav-link">
+        <i class="fa-solid fa-bars" id="toggle"></i>
+      </div>
+    </div>
+    <div class="formbox">
+      <div class="intro" id="intro">
+        <h1>Hi! I'm Chinmay</h1>
+        <p>This is my site using both front-end, and back-end. Hope you like it.</p>
+        <p class="para"><span>Sign up</span>, so that we can connect.</p>
+      </div>
+      <form class="form" id="form" action="/" method="POST">
+        <p>Your Name :</p>
+        <input type="text" name="name" placeholder="Name" class="form-item form-input">
+        <p>Your Email Address :</p>
+        <input type="text" name="email" placeholder="Email" class="form-item form-input">
+        <p>Click 'Sign Up' to complete</p>
+        <button type="button" name="button" class="form-item form-btn">Sign Up <span><i class="fa-solid fa-chevron-right"></i></span></button>
+      </form>
+    </div>
+  <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
