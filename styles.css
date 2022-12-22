@@ -127,8 +127,8 @@ body{
   display: flex;
   flex-direction: column;
   padding-top: 6%;
-  border: 2px solid #f3f4f7;
-  border-radius: 15px;
+  /* border: 2px solid #f3f4f7;
+  border-radius: 15px; */
   letter-spacing: 1px;
 
 }
@@ -178,14 +178,12 @@ body{
 .links{
   margin-top: 5%;
   width: 100%;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  display: block;
+  /* display: flex;
+  justify-content: space-around; */
   background-color: #111111;
   color: #ea1d5d;
-  padding: 3% 0;
-  position: absolute;
-  top: 100%;
+  padding: 1% 0;
 }
 
 .links::before{
@@ -198,8 +196,9 @@ body{
 }
 
 .contact-link{
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   color: #f85959;
+  margin: 0 15%;
 }
 
 .contact-link:hover{
@@ -563,12 +562,11 @@ body{
   .links{
     transform: translateY(450%);
     margin-bottom: 0;
+    padding: 3% 0;
   }
   .contact-link{
-    font-size: 1.5rem;
-  }
-  .back-img{
-    height: 135%;
+    font-size: 1.2rem;
+    margin: 0 14%;
   }
 }
 
