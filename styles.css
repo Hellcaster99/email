@@ -127,8 +127,6 @@ body{
   display: flex;
   flex-direction: column;
   padding-top: 6%;
-  /* border: 2px solid #f3f4f7;
-  border-radius: 15px; */
   letter-spacing: 1px;
 
 }
