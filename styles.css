@@ -82,9 +82,8 @@ body{
 }
 
 .formbox{
-  margin: 7% auto;
-  width: 90%;
-  height: 500px;
+  margin: 7% 0;
+  width: 100%;
   display: flex;
   flex-direction: row;
 }
@@ -94,6 +93,8 @@ body{
   flex-direction: column;
   justify-content: flex-start;
   width: 65%;
+  margin-left: 5%;
+  flex-wrap: wrap;
 }
 
 .intro h1{
@@ -131,6 +132,7 @@ body{
   padding-top: 6%;
   letter-spacing: 1px;
   overflow: hidden;
+
 }
 
 .form p{
@@ -178,9 +180,8 @@ body{
 .links{
   margin-top: 5%;
   width: 100%;
-  display: block;
-  /* display: flex;
-  justify-content: space-around; */
+  display: flex;
+  justify-content: space-around;
   background-color: #111111;
   color: #ea1d5d;
   padding: 1% 0;
@@ -198,7 +199,6 @@ body{
 .contact-link{
   font-size: 1.8rem;
   color: #f85959;
-  margin: 0 15%;
 }
 
 .contact-link:hover{
@@ -560,7 +560,7 @@ body{
   .intro{
     width: 90%;
     margin-bottom: 20%;
-    padding-left: 5%;
+    padding-left: 10%;
   }
   .form{
     width: 80%;
@@ -625,7 +625,6 @@ body{
   }
   .contact-link{
     font-size: 1.2rem;
-    margin: 0 14%;
   }
 }
 
