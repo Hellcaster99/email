@@ -130,7 +130,7 @@ body{
   flex-direction: column;
   padding-top: 6%;
   letter-spacing: 1px;
-
+  overflow: hidden;
 }
 
 .form p{
