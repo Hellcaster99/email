@@ -15,6 +15,7 @@ body{
   background-repeat: no-repeat;
   color: #f3f4f7;
   font-family: 'Consolas', serif;
+  overflow: scroll;
 }
 
 .navbox{
@@ -132,7 +133,7 @@ body{
   padding-top: 6%;
   letter-spacing: 1px;
   overflow: hidden;
-
+  height: 500px;
 }
 
 .form p{
