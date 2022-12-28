@@ -564,7 +564,7 @@ body{
     padding-left: 10%;
   }
   .form{
-    width: 80%;
+    width: 60%;
     margin-bottom: 100px;
   }
   .form p{
@@ -620,7 +620,7 @@ body{
     margin-bottom: 0;
   }
   .links{
-    transform: translateY(450%);
+    /* transform: translateY(450%); */
     margin-bottom: 0;
     padding: 3% 0;
   }
